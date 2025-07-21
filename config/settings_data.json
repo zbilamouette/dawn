@@ -171,6 +171,11 @@
       "show_cart_note": false,
       "cart_drawer_collection": "",
       "sections": {
+        "image-banner": {
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/fcf1964506284280a60e2568e234eb1f.mp4"
+          }
+        },
         "main-password-header": {
           "type": "main-password-header",
           "settings": {
@@ -181,6 +186,12 @@
           "type": "main-password-footer",
           "settings": {
             "color_scheme": "scheme-1"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_position": "middle-center"
           }
         }
       }
