@@ -1,0 +1,115 @@
+
+
+.header {
+  margin: 0;
+  min-width: 100% !important;
+  background-color: transparent;
+  font-size: calc(.75rem*0.9);
+  line-height: 1.7;
+  font-family: Michroma, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.header:hover {
+  background-color: #171717;
+  border-bottom: 1px solid #FFF;
+}
+
+.header.scrolled {
+  background-color: #171717;
+  border-bottom: 1px solid #FFF;
+}
+
+body:has(main:has(:first-child:not(:is(:nth-child(1):nth-of-type(1))))) .section-header {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Header text color */
+
+.header__menu-item,
+.list-menu__item > a,
+.link--text {
+  color: #FFF;
+  font-family: 'Michroma', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/* Liens secondaires dans le mega-menu */
+.mega-menu__link {
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+/* Couleur au survol */
+.header__menu-item:hover,
+.list-menu__item > a:hover,
+.mega-menu__link:hover {
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+/* Menu actif */
+.header__active-menu-item,
+.mega-menu__link--active {
+  color: #FFF;
+  /* font-weight: bold; */
+}
+
+
+/* video-banner */
+
+header {
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__icon {
+  color: white !important
+}
+.header__icon--cart svg{
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.banner--video-only {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.banner--video-only video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+
+.scrolled {
+  background-color: red;
+}
+
+
+
+/* Header announcement bar */
+.utility-bar {
+  background-color: #686868;
+}
+
+.announcement-bar__message {
+  text-transform: uppercase;
+  font-size: 10px;
+}

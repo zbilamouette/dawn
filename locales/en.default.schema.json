@@ -473,7 +473,7 @@
           "settings": {
             "text": {
               "label": "Text",
-              "default": "Welcome to our store"
+              "default": "Nouveau drop YUJI disponible"
             },
             "text_alignment": {
               "label": "Text alignment",
@@ -2876,7 +2876,7 @@
           "settings": {
             "heading": {
               "label": "Heading",
-              "default": "Talk about your brand"
+              "default": "Dernières nouveautés"
             }
           }
         },

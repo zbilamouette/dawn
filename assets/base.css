@@ -1,3 +1,6 @@
+
+
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -3594,4 +3597,13 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+
+body {
+  font-family: 'Michroma', sans-serif !important;
+}
+
+* {
+  font-family: 'Michroma', sans-serif !important;
 }
