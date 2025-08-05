@@ -113,3 +113,31 @@ header {
   text-transform: uppercase;
   font-size: 10px;
 }
+
+
+
+/* Custom mobile aside menu */
+
+
+.menu-drawer {
+  background-color: rgb(17,17,17) !important;
+  z-index: 1000 !important;
+}
+
+.menu-drawer__navigation {
+  display: inline-block;
+  clip-path: inset(0 0 100% 0); /* hidden first */
+  animation: revealDown 3s forwards;
+}
+@keyframes revealDown {
+  to {
+    clip-path: inset(0 0 0 0); /* shown */
+  }
+}
+
+.menu-drawer__menu-item:hover {
+  color: white !important;
+}
+.menu-drawer__menu-item {
+  color: white !important;
+}

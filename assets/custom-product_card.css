@@ -21,17 +21,6 @@
   display: inline-block;
 }
 
-.menu-drawer {
-  background-color: rgb(17,17,17) !important;
-  z-index: 1000 !important;
-  position: relative !important;
-}
-.menu-drawer__menu-item:hover {
-  color: white !important;
-}
-.menu-drawer__menu-item {
-  color: white !important;
-}
 
 .card--standard {
   background-color: var(--background-color);
@@ -65,10 +54,11 @@
   flex-wrap: wrap !important;
   gap: 15px !important;
   width: 100%;
-  background-color: lightblue !important;
+  justify-content: center !important;
+  gap: 5rem !important;
 }
 
 .slider-mobile-gutter {
   padding: 0 !important;
-  margin: 0  !important;
+  margin: 0 auto !important;
 }
